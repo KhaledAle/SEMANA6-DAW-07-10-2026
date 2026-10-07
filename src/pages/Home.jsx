@@ -51,7 +51,6 @@ export default function Home() {
           <div className="stat-icon stat-green">✓</div>
           <p>Estado de la conexión</p>
           <strong className="stat-connected">{loading ? 'Cargando' : error ? 'Sin conexión' : 'Activa'}</strong>
-          <span>Fuente: JSONPlaceholder</span>
         </article>
       </div>
 

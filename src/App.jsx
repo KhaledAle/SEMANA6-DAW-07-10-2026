@@ -39,12 +39,11 @@ function App() {
       <main className="main-area">
         <header className="topbar">
           <span>Panel de administración</span>
-          <div className="topbar-status"><span /> Sistema conectado</div>
         </header>
         <div className="page-content">
           <Outlet />
         </div>
-        <footer className="footer">Directorio Académico <span>·</span> Datos de demostración de JSONPlaceholder</footer>
+        <footer className="footer">Directorio Académico - Janampa Jaime Khaled Alejandro <span>·</span> Datos de demostración de JSONPlaceholder</footer>
       </main>
     </div>
   )
